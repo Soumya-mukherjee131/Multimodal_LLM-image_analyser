@@ -51,3 +51,5 @@ and then AI will return a text based answer according to the given description. 
   ->API Key Setup: Go to geminiAi and create your own api key there and use it in the application if you want to build your own.
 
   ->Screenshots: I have uploaded multiple screenshots of the application. Please check it out.
+NB - > Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?alt=sse: [400 ] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}}]
+I have completed the free uses of the APi so the application will throw this error. PLease make your own Api_key and use the application for your needs. Thank you for your understanding.
