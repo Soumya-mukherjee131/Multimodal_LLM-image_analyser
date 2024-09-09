@@ -4,7 +4,7 @@ import MarkdownIt from 'markdown-it';
 import './style.css';
 
 // Replace with your actual API key
-let API_KEY = 'AIzaSyCez7mGsOMPxW_lhA_tx7TYWe-03y7ltg8'; 
+let API_KEY = process.env.GEMINIAI_API_KEY; 
 
 let form = document.querySelector('form');
 let promptInput = document.querySelector('#promptInput'); // Select by ID
