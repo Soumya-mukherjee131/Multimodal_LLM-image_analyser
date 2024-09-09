@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multimodal_LLm-Tool</title>
+</head>
+
+<body>
+  <main>
+    <h1>Tool for -Testing instructions for digital product's feature based on scrrenshots/images</h1>
+    <form>
+      <label for="context">Optional Context:</label>
+        <textarea id="context" placeholder="Enter any additional context..."></textarea>
+      <div class="image-picker">
+        <label for="imageUpload">Upload Screenshots:</label>
+       <input type="file" id="fileInput" name="file" accept="image/*" multiple>
+      </div>
+      <div class="prompt-box">
+        <label>
+          <h2>Your Prompt:</h2>
+          <input id="promptInput" name="prompt" placeholder="Describe testing instruction" type="text">
+        </label>
+        <button type="submit">Describe</button>
+      </div>
+    </form>
+    <div class="prompt-display">
+      <p class="output">(Results will appear here)</p>
+    </div>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
